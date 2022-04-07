@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=PT+Sans&family=Poppins&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 *{
     margin: 0;
@@ -8,6 +8,10 @@
 }
 
 
+body{
+    background: #eee;
+}
+
 main {
      max-width: 900px;
      height: 100%;
@@ -15,6 +19,8 @@ main {
      box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
       -30px 0px 40px rgba(0, 0, 0, 0.1);
  }
+
+ 
 
  /* SECTION 1 */
 
@@ -24,6 +30,7 @@ main {
  }
 
  .sec1-text{
+     height: 100vh;
      /* border: 1px solid red; */
      padding: 40vh 0;
      margin-left: 50px;
@@ -38,7 +45,7 @@ main {
 
  .sec1-h2{
      font-size: 19px;
-     font-weight: 600;
+     font-weight: 300;
     display: block;
     text-align: center;
      color: #888888;
@@ -52,18 +59,82 @@ main {
      display: block;
      text-align: center;
      margin: 20px auto;
-    padding: 15px 5px;
+     padding: 15px 5px;
      background: #fff;
      color: #000;
      border: 1px solid #ccc;
      border-radius: 50px;
  }
 
+ .sec1-a:hover{
+    background: #f4f4f4;
+ }
+
  .img-1{
-     width: 520px;
-     height: auto;
+     max-width: 519px;
+     /* height: auto; */
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
      margin-left: 65px;
+ }
+
+ /* SECTION 2 */
+
+ .header{
+     width: 100%;
+     height: 70px;
+     padding: 10px 0;
+     position: relative;
+     bottom: 5px;
+     background: #333;
+     color: #fff;
+ }
+
+ .section2-h1{
+     width: 103px;
+     height: 23px;
+     font-size: 19px;
+     font-weight: 300;
+     text-align: center;
+     margin: 15px auto;
+     border-left: 1px dotted #fff;
+     border-right: 1px dotted #fff;
+ }
+
+ /* SECTION 3 */
+
+ img{
+     width: 100%;
+     display: block;
+ }
+
+ .titles{
+     text-align: center;
+     padding: 15px;
+ }
+
+ .titles h3, p{
+     padding: 10px;
+ }
+
+ /* FOOTER  */
+
+ .footer{
+     width: 100%;
+     padding: 60px 0 40px 0;
+ }
+
+ .footer h1, p{
+     padding: 10px;
+     text-align: center;
+     color: #333;
+ }
+
+ .footer-h1{
+     font-size: 48px;
+ }
+
+ .footer-p{
+     font-size: 16px;
  }

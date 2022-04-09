@@ -70,9 +70,9 @@ main {
     background: #f4f4f4;
  }
 
+
  .img-1{
      max-width: 519px;
-     /* height: auto; */
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -139,7 +139,8 @@ main {
      font-size: 16px;
  }
 
-@media (max-width: 450px){
+
+ @media (max-width: 450px){
 
     main {
         max-width: 400px;
@@ -170,3 +171,18 @@ main {
         padding: 0 15px;
     }
  }
+
+
+@media (min-width: 900px){
+    .section1__container{
+        height: 55vh;
+        display: flex;
+        padding: 0 16px;
+    }
+
+    .sec1-text{
+        height: 20%;
+        padding: 20vh 0;
+        margin-left: 50px;
+    }
+}

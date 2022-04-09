@@ -86,7 +86,7 @@ main {
      height: 70px;
      padding: 10px 0;
      position: relative;
-     bottom: 5px;
+     top: 65vh;
      background: #333;
      color: #fff;
  }
@@ -103,6 +103,11 @@ main {
  }
 
  /* SECTION 3 */
+
+ .section3{
+     position: relative;
+     top: 65vh;
+ }
 
  img{
      width: 100%;
@@ -123,6 +128,8 @@ main {
  .footer{
      width: 100%;
      padding: 60px 0 40px 0;
+     position: relative;
+     top: 65vh;
  }
 
  .footer h1, p{
